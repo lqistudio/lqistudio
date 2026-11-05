@@ -1,0 +1,53 @@
+/* =================================================================
+   LOQUIVERSO — responsive.css
+   Mobile-first. Los estilos base en main.css ya son la versión
+   de teléfono; aquí solo se amplía hacia tablet/escritorio.
+   ================================================================= */
+
+/* ---------- ≥ 640px: tablet chica ---------- */
+@media (min-width: 640px) {
+  .character-grid { grid-template-columns: repeat(2, 1fr); }
+  .portal-grid { grid-template-columns: repeat(2, 1fr); }
+  .egg-grid { grid-template-columns: repeat(2, 1fr); }
+  .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---------- ≥ 860px: escritorio / navegación completa ---------- */
+@media (min-width: 860px) {
+  .nav-toggle { display: none; }
+
+  .site-nav {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+    padding: 0;
+    background: none;
+    inset: auto;
+  }
+  .site-nav a { border-bottom: none; padding: 6px 0; font-size: 0.95rem; }
+  .site-nav a.is-active { position: relative; }
+  .site-nav a.is-active::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: -4px;
+    height: 2px; background: var(--sun);
+  }
+  .nav-search { margin: 0; width: 190px; }
+
+  .site-header .container { flex-wrap: nowrap; }
+
+  .char-hero { grid-template-columns: 320px 1fr; align-items: start; }
+  .char-hero .thumb-lg { position: sticky; top: calc(var(--nav-h) + 20px); }
+
+  .character-grid { grid-template-columns: repeat(3, 1fr); }
+  .portal-grid { grid-template-columns: repeat(3, 1fr); }
+  .egg-grid { grid-template-columns: repeat(3, 1fr); }
+  .rel-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ---------- ≥ 1080px: pantallas grandes ---------- */
+@media (min-width: 1080px) {
+  .character-grid { grid-template-columns: repeat(4, 1fr); }
+  .portal-grid { grid-template-columns: repeat(4, 1fr); }
+}

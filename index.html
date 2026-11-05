@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LQISTUDIO — Find the color within the dark.</title>
+<meta name="description" content="LQISTUDIO: motion graphics, wallpapers animados, branding y diseño digital. / Motion graphics, animated wallpapers, branding and digital design.">
+<meta name="theme-color" content="#050508">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="boot"><span>LQISTUDIO</span><i></i></div>
+<div id="bar"></div>
+<header class="nav">
+  <a href="#top" class="logo">LQISTUDIO</a>
+  <nav>
+    <a href="#estudio" data-i18n="nav_studio"></a>
+    <a href="#servicios" data-i18n="nav_services"></a>
+    <a href="#trabajos" data-i18n="nav_works"></a>
+    <a href="#arte" data-i18n="nav_art"></a>
+    <a href="#arcade" data-i18n="nav_arcade"></a>
+    <a href="#universos" data-i18n="nav_universes"></a>
+    <a href="#enlaces" data-i18n="nav_links"></a>
+  </nav>
+  <div class="navbtns"><a class="navbtn" href="https://elqbot.lqistudio.com" target="_blank" rel="noopener">ElQbot ↗</a><a class="navbtn alt" href="juego/index.html">Juego ▶</a></div>
+  <div class="lang" role="group" aria-label="Idioma / Language">
+    <button data-lang="es">ES</button><button data-lang="en">EN</button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" id="hero">
+    <div class="glow lit" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="hero-text">
+      <h1 class="base" data-i18n="h1"></h1>
+      <h1 class="lit neon" aria-hidden="true" data-i18n="h1"></h1>
+      <p data-i18n="lead"></p>
+      <div class="ctas">
+        <a class="btn" href="#trabajos" data-i18n="cta1"></a>
+        <a class="btn ghost" href="#enlaces" data-i18n="cta2"></a>
+      </div>
+    </div>
+    <p class="hint" data-i18n="hint"></p>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div><span>FIND THE COLOR WITHIN THE DARK ✦ LQISTUDIO ✦ NEON ✦ MOTION ✦ ARTE ✦ </span><span>FIND THE COLOR WITHIN THE DARK ✦ LQISTUDIO ✦ NEON ✦ MOTION ✦ ARTE ✦ </span></div></div>
+
+  <section id="estudio" class="studio">
+    <h2 data-i18n="studio_t"></h2>
+    <div class="cols">
+      <p class="big" data-i18n="studio_p"></p>
+      <div>
+        <h3 data-i18n="mission_t"></h3><p data-i18n="mission_p"></p>
+        <h3 data-i18n="vision_t"></h3><p data-i18n="vision_p"></p>
+      </div>
+    </div>
+    <div class="palette" aria-label="Paleta / Palette">
+      <button style="--c:#00E6A0" data-hex="#00E6A0">LQI Mint<span>#00E6A0</span></button>
+      <button style="--c:#8A2BE2" data-hex="#8A2BE2">Violet<span>#8A2BE2</span></button>
+      <button style="--c:#FF2BD6" data-hex="#FF2BD6">Magenta<span>#FF2BD6</span></button>
+      <button style="--c:#E8FFF7" data-hex="#E8FFF7">Cold white<span>#E8FFF7</span></button>
+      <button style="--c:#050508" data-hex="#050508">Deep black<span>#050508</span></button>
+    </div>
+    <p class="hint" data-i18n="pal_hint"></p>
+  </section>
+
+  <section id="servicios" class="services">
+    <h2 data-i18n="svc_t"></h2>
+    <ul>
+      <li data-c="#00E6A0"><b data-i18n="s1"></b><span data-i18n="s1d"></span></li>
+      <li data-c="#FF2BD6"><b data-i18n="s2"></b><span data-i18n="s2d"></span></li>
+      <li data-c="#8A2BE2"><b data-i18n="s3"></b><span data-i18n="s3d"></span></li>
+      <li data-c="#00E6A0"><b data-i18n="s4"></b><span data-i18n="s4d"></span></li>
+      <li data-c="#FF2BD6"><b data-i18n="s5"></b><span data-i18n="s5d"></span></li>
+    </ul>
+  </section>
+
+  <section id="trabajos" class="works">
+    <h2 data-i18n="works_t"></h2>
+    <p data-i18n="works_p"></p>
+    <div class="hero-video" id="video">
+      <div class="hv-tag"><span data-i18n="vid_tag"></span><a href="https://youtu.be/rlXfP4Luhis" target="_blank" rel="noopener">YouTube ↗</a></div>
+      <div class="hv-frame"><iframe width="560" height="315" src="https://www.youtube.com/embed/rlXfP4Luhis?si=crEJ5rVXMYHVgatS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <h3 data-i18n="vid_t"></h3>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="grid ig-grid" id="igrid"></div>
+  </section>
+
+  <section id="arte" class="arte">
+    <h2 data-i18n="art_t"></h2>
+    <p data-i18n="art_p"></p>
+    <div class="artgrid">
+      <figure><canvas class="art" data-src="arte/loqui.webp"></canvas><figcaption>LoQui</figcaption></figure>
+      <figure><canvas class="art" data-src="arte/thresh.webp"></canvas><figcaption>Thresh</figcaption></figure>
+      <figure><canvas class="art" data-src="arte/distrocam.webp"></canvas><figcaption>Distrocam</figcaption></figure>
+      <figure><canvas class="art" data-src="arte/ilustracion.webp"></canvas><figcaption>Ilustración</figcaption></figure>
+      <figure><canvas class="art" data-src="arte/boceto.webp"></canvas><figcaption>Boceto</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="arcade" class="arcade">
+    <h2 data-i18n="arc_t"></h2>
+    <p data-i18n="arc_p"></p>
+    <div class="games">
+      <div class="game">
+        <div class="gh"><h3 data-i18n="g1_t"></h3><span><span data-i18n="score"></span> <b id="score">0</b> · <span data-i18n="best"></span> <b id="best">0</b> · <b id="time">30</b>s</span></div>
+        <canvas id="pig" width="640" height="400"></canvas>
+        <p class="hint" data-i18n="hintg1"></p>
+        <button class="btn" id="pigStart" data-i18n="play"></button>
+      </div>
+      <div class="game">
+        <div class="gh"><h3 data-i18n="g2_t"></h3><span><span data-i18n="round"></span> <b id="round">0</b></span></div>
+        <div class="simon">
+          <button data-n="0" style="--c:#00E6A0" aria-label="Mint"></button><button data-n="1" style="--c:#8A2BE2" aria-label="Violet"></button>
+          <button data-n="2" style="--c:#FF2BD6" aria-label="Magenta"></button><button data-n="3" style="--c:#E8FFF7" aria-label="White"></button>
+        </div>
+        <p class="hint" id="simMsg"></p>
+        <button class="btn" id="simStart" data-i18n="play"></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="universos" class="universos">
+    <h2 data-i18n="uni_t"></h2>
+    <p data-i18n="uni_p"></p>
+    <div class="unis">
+      <a class="uni" href="https://elqbot.lqistudio.com" target="_blank" rel="noopener" style="--c:#00E6A0"><b>ElQbot ↗</b><span data-i18n="u1d"></span></a>
+      <a class="uni" href="juego/index.html" style="--c:#FF2BD6"><b>Doña Meche ▶</b><span data-i18n="u2d"></span></a>
+      <a class="uni" href="loquiverso/index.html" style="--c:#8A2BE2"><b>Loquiverso</b><span data-i18n="u3d"></span></a>
+      <a class="uni" href="https://aet.lqistudio.com" target="_blank" rel="noopener" style="--c:#E8FFF7"><b>AET_HARMONY ↗</b><span data-i18n="u4d"></span></a>
+    </div>
+  </section>
+
+  <section id="enlaces" class="links">
+    <h2 data-i18n="links_t"></h2>
+    <p data-i18n="links_p"></p>
+    <div class="chips">
+      <a href="https://lqistudio.carrd.co" data-i18n="commissions"></a>
+      <a href="https://www.youtube.com/results?search_query=LQIStudio" id="yt">YouTube</a>
+      <a href="https://www.twitch.tv/lqi__">Twitch</a>
+      <a href="https://www.instagram.com/lqiart">Instagram</a>
+      <a href="https://www.tiktok.com/@.lqi__">TikTok</a>
+      <a href="https://www.deviantart.com/lqiart">DeviantArt</a>
+      <a href="https://x.com/LQIArt">X</a>
+      <a href="https://steamcommunity.com/id/lqiart/myworkshopfiles/?appid=431960">Steam Workshop</a>
+      <a href="https://lqiart.carrd.co">LQIART</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>© LQISTUDIO</span>
+  <em data-i18n="quote"></em>
+</footer>
+
+<dialog id="player"><button id="close" aria-label="Cerrar / Close">×</button><iframe title="Video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></dialog>
+<div id="toast" role="status"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

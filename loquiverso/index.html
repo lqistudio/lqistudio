@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loquiverso — Wiki oficial de Esférion</title>
+<meta name="description" content="La enciclopedia interactiva del Loquiverso: personajes, lore, el glitch, AET_HARMONY y los easter eggs de Esférion.">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<script src="../lqi-bar.js" data-home="../index.html"></script>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html"><span class="dot">◍</span> LOQUIVERSO</a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <div class="nav-search-wrap">
+        <div class="nav-search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" placeholder="Buscar en Esférion…" data-search-input aria-label="Buscar">
+        </div>
+        <div class="search-results" data-search-results hidden></div>
+      </div>
+      <a href="index.html" class="is-active">Inicio</a>
+      <a href="personajes.html">Personajes</a>
+      <a href="lore.html">Lore</a>
+      <a href="glitch.html">El glitch</a>
+      <a href="idioma.html">AET_HARMONY</a>
+      <a href="cronologia.html">Cronología</a>
+      <a href="easter-eggs.html">Easter eggs</a>
+      <a href="about.html">Acerca de</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">Archivo vivo de Esférion</span>
+      <h1 data-glitch="LOQUIVERSO" data-text="L0QUIV3RS0">LOQUIVERSO</h1>
+      <blockquote class="hero-quote">
+        «Esférion era un mundo tranquilo... hasta que una anomalía intergaláctica rompió sus reglas.»
+      </blockquote>
+      <p style="max-width:56ch;">
+        Esta es la enciclopedia digital del Loquiverso: el universo de LoQui, un streamer
+        esférico de Esférion, sus amigos y la anomalía que está rompiendo las fronteras
+        entre su mundo, sus personajes y su creador.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="personajes.html">Explorar personajes</a>
+        <a class="btn btn-ghost" href="lore.html">Empezar por el lore</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Explora el archivo</span>
+        <h2>¿Por dónde quieres entrar?</h2>
+      </div>
+      <div class="portal-grid">
+        <a class="portal-card" href="personajes.html">
+          <span class="num">01</span>
+          <h3>Personajes</h3>
+          <p>LoQui, Lord Umbral, El Tren y el resto del elenco de Esférion.</p>
+        </a>
+        <a class="portal-card" href="lore.html">
+          <span class="num">02</span>
+          <h3>Lore</h3>
+          <p>Esférion, la anomalía, el rayo gamma y el mundo de LQI.</p>
+        </a>
+        <a class="portal-card" href="glitch.html">
+          <span class="num">03</span>
+          <h3>El glitch</h3>
+          <p>Cómo la anomalía altera cuerpos, poderes, lenguaje y realidad.</p>
+        </a>
+        <a class="portal-card" href="idioma.html">
+          <span class="num">04</span>
+          <h3>AET_HARMONY</h3>
+          <p>El idioma glitch de LQISTUDIO y la firma alterada: LQI → λθι.</p>
+        </a>
+        <a class="portal-card" href="cronologia.html">
+          <span class="num">05</span>
+          <h3>Cronología</h3>
+          <p>De Esférion en paz a la corrupción de Lord Umbral, en orden.</p>
+        </a>
+        <a class="portal-card" href="easter-eggs.html">
+          <span class="num">06</span>
+          <h3>Easter eggs</h3>
+          <p>Guiños escondidos en la historia. Si sabes de dónde viene, sabes de dónde viene.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Firma corrupta</span>
+        <h2>Algo cambió en el mundo del creador</h2>
+      </div>
+      <div class="signature-block">
+        <div class="from">LQI firma normalmente como</div>
+        <div style="font-family: var(--font-mono); font-size: 1.6rem; margin-top: 6px;">LQI</div>
+        <div class="arrow">↓ glitch ↓</div>
+        <div class="to">λθι</div>
+      </div>
+      <p style="max-width:60ch;">
+        Esta alteración es una de las primeras señales de que la anomalía no se queda dentro
+        de Esférion. <a href="idioma.html" style="color:var(--glitch-b);">Descubre AET_HARMONY →</a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>LOQUIVERSO — Web oficial | Derechos reservados 2026/2027.</span>
+    <span>El canon pertenece a Esférion. Actualizado a medida que la historia crece.</span>
+  </div>
+</footer>
+
+<script src="data/characters.js"></script>
+<script src="data/lore.js"></script>
+<script src="js/main.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+Sube estos 4 archivos a la raíz del repo de aet.lqistudio.com (reemplazando index.html, en.html y pt.html).
+Añaden arriba una barra "← LQISTUDIO" para volver a https://lqistudio.com.

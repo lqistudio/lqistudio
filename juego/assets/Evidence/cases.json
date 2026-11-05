@@ -1,0 +1,47 @@
+[
+  {
+    "zone": 0,
+    "title": "¿Quién se llevó el dinero de la fiesta?",
+    "recording": "«He cobrado la reparación otra vez. Si preguntan, decid que el sobre se lo quedó Salcedo». Se reconoce la voz de Elena.",
+    "document": "La misma reparación aparece cobrada dos veces. Las dos transferencias las autorizó Elena.",
+    "photo": "Salcedo entrega un sobre al electricista. La foto está recortada: no se ve el letrero del taller.",
+    "suspect": "Salcedo",
+    "culprit": "Elena"
+  },
+  {
+    "zone": 1,
+    "title": "Los jardines que nadie puede pisar",
+    "recording": "Alicia pide que escondan el informe: «Si creen que Bruno lo privatizó, nadie mirará las facturas».",
+    "document": "La inspección encuentra materiales sin certificar. Alicia facturó materiales de primera calidad.",
+    "photo": "Bruno recibe las llaves de un almacén de herramientas, junto a la entrada del parque.",
+    "suspect": "Bruno",
+    "culprit": "Alicia"
+  },
+  {
+    "zone": 2,
+    "title": "Una escuela fuera de plano",
+    "recording": "Rivas ordena cortar el vídeo: «Que parezca que ella quiere quitar la escuela».",
+    "document": "El contrato de venta está a nombre de una empresa de Rivas, no de Valeria.",
+    "photo": "Valeria retira un cartel roto durante el rodaje de una campaña a favor de la escuela.",
+    "suspect": "Valeria",
+    "culprit": "Rivas"
+  },
+  {
+    "zone": 3,
+    "title": "El cargamento que cambió de ruta",
+    "recording": "Ortiz dice: «Guardad la carga y distribuid la foto de Navarro. Nadie buscará mi firma».",
+    "document": "Las órdenes de desvío llevan la firma digital de Ortiz.",
+    "photo": "Navarro inspecciona un almacén donde se reparan camiones. No aparece ningún cargamento.",
+    "suspect": "Navarro",
+    "culprit": "Ortiz"
+  },
+  {
+    "zone": 4,
+    "title": "El voto que desapareció",
+    "recording": "Silva instruye a su asistente: «Cambia el recuento. La caja de Vega nos sirve de excusa».",
+    "document": "El registro original y la copia de Silva tienen cifras diferentes.",
+    "photo": "Vega guarda papeletas anuladas en una caja de archivo, delante de dos observadores.",
+    "suspect": "Vega",
+    "culprit": "Silva"
+  }
+]
